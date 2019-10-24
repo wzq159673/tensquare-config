@@ -1,0 +1,12 @@
+server:
+  port: 9007
+spring:
+  application:
+    name: tensquare‐search #指定服务名
+  data:
+    elasticsearch:
+      cluster-nodes: 127.0.0.1:9300
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:10086/eureka
