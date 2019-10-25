@@ -6,7 +6,9 @@ spring:
   data:
     elasticsearch:
       cluster-nodes: 127.0.0.1:9300
+  rabbitmq:
+    host: 127.0.0.1
 eureka:
   client:
     service-url:
-      defaultZone: http://127.0.0.1:10086/eureka
+      defaultZone: http://127.0.0.1:10086/eureka/
