@@ -2,7 +2,9 @@ server:
   port: 10011
 spring:
   application:
-    name: tensquare‐manager 
+    name: tensquare‐manager
+  rabbitmq:
+    host: 127.0.0.1
 eureka:
   client:
     service-url:
