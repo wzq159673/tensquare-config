@@ -11,6 +11,8 @@ spring:
   jpa: 
     database: mysql
     show-sql: true
+  rabbitmq:
+    host: 127.0.0.1
   redis:
     host: 127.0.0.1
   data:
@@ -20,7 +22,7 @@ spring:
 eureka:
   client:
     service-url:
-      defaultZone: http://127.0.0.1:10086/eureka
+      defaultZone: http://127.0.0.1:10086/eureka/
 
 
 
