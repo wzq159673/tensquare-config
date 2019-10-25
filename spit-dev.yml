@@ -7,7 +7,9 @@ spring:
     mongodb:
       database: spitdb
       host: 127.0.0.1
+  rabbitmq:
+    host: 127.0.0.1
 eureka:
   client:
     service-url:
-      defaultZone: http://127.0.0.1:10086/eureka
+      defaultZone: http://127.0.0.1:10086/eureka/
